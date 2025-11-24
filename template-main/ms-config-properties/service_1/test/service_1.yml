@@ -1,0 +1,5 @@
+app:
+  name: "server_1"
+  environment: "TEST"
+  version: "1.0.0-TEST"
+description: "This is server_1 in test environment"

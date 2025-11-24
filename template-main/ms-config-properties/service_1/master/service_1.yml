@@ -1,0 +1,5 @@
+app:
+  name: "server_1"
+  environment: "PRODUCTION"
+  version: "1.0.0-PROD"
+description: "This is server_1 in production environment"

@@ -1,0 +1,5 @@
+app:
+  name: "server_1"
+  environment: "DEV"
+  version: "1.0.0-DEV"
+description: "This is server_1 in development environment"

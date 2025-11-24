@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eureka-client
+server:
+  port: 8081
+
+eureka:
+  client:
+    enabled: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    # ЗАКОММЕНТИРУЙТЕ healthcheck пока не добавили зависимость
+    # healthcheck:
+    #   enabled: true
+
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 35
