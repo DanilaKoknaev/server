@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/template-main/creation-book-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-main/eureka-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-main/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-main/gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-main/store-book-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-main/zuul-service/src/main/java" charset="UTF-8" />
   </component>
