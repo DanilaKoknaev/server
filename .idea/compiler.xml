@@ -7,34 +7,50 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
-        <module name="check-book-service" />
         <module name="client-service (1) (org.example)" />
         <module name="book-service" />
-        <module name="eureka-client" />
+        <module name="store-book-com.example.bookservice.service" />
         <module name="store-book-service" />
         <module name="book-service (1)" />
-        <module name="client-service (2) (org.example)" />
+        <module name="creation-book-com.example.bookservice.service" />
         <module name="zuul-service" />
+        <module name="check-book-com.example.bookservice.service" />
         <module name="eureka-server" />
         <module name="creation-book-service" />
+        <module name="client-com.example.bookservice.service (3) (com.example)" />
+        <module name="client-com.example.bookservice.service (1)" />
+        <module name="client-com.example.bookservice.service (2)" />
+        <module name="config-server" />
+        <module name="check-book-service" />
+        <module name="eureka-client" />
+        <module name="client-service (2) (org.example)" />
+        <module name="zuul-com.example.bookservice.service" />
+        <module name="book-com.example.bookservice.service" />
         <module name="client-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="book-com.example.bookservice.service" options="-parameters" />
       <module name="book-service" options="-parameters" />
       <module name="book-service (1)" options="-parameters" />
+      <module name="check-book-com.example.bookservice.service" options="-parameters" />
       <module name="check-book-service" options="-parameters" />
+      <module name="client-com.example.bookservice.service (1)" options="-parameters" />
+      <module name="client-com.example.bookservice.service (2)" options="-parameters" />
+      <module name="client-com.example.bookservice.service (3) (com.example)" options="-parameters" />
       <module name="client-service" options="-parameters" />
       <module name="client-service (1) (org.example)" options="-parameters" />
       <module name="client-service (2) (org.example)" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="creation-book-com.example.bookservice.service" options="-parameters" />
       <module name="creation-book-service" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="store-book-com.example.bookservice.service" options="-parameters" />
       <module name="store-book-service" options="-parameters" />
+      <module name="zuul-com.example.bookservice.service" options="-parameters" />
       <module name="zuul-service" options="-parameters" />
     </option>
   </component>
